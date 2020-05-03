@@ -1,0 +1,203 @@
+<h1 className="m-3 d-flex">CarEager - The Car Rental Agency</h1>
+        <div className="padding">
+          <Searchbox
+            placeholder="Enter Your Location"
+            handleChange={(e) => this.setState({ searchfield: e.target.value })}
+          />
+        </div>
+
+
+
+
+
+
+
+
+
+        export const Card = (props) => 
+
+
+
+        let addModalClose = () => setState({ addModalShow: false });
+
+
+
+    <ButtonToolbar>
+      <button
+        variant="primary"
+        onClick={() => setState({ addModalShow: true })}
+      >
+        show details
+      </button>
+      <MyModal show={state.addModalShow} onHide={addModalClose} />
+    </ButtonToolbar>
+<div className="card-list">
+          {this.cars.map((cars) => (
+            <this.key={cars.id} cars={cars} />
+          ))}
+        </div>
+
+
+
+
+        this.state = {
+      cars: [
+        {
+          image: <img src={logo} />,
+          name: "maruti suzuki",
+          id: "bbbb1",
+        },
+        {
+          image: <img src={logo} />,
+          name: "Ferari",
+          id: "a2",
+        },
+        {
+          image: <img src={logo} />,
+          name: "BMW",
+          id: "a3",
+        },
+        {
+          image: <img src={logo} />,
+          name: "maruti alto",
+          id: "a4",
+        },
+        {
+          image: <img src={logo} />,
+          name: "oodi",
+          id: "a5",
+        },
+        {
+          image: <img src={logo} />,
+          name: "chevrolet",
+          id: "a6",
+        },
+        {
+          image: <img src={logo} />,
+          name: "swift",
+          id: "a7",
+        },
+        {
+          image: <img src={logo} />,
+          name: "ertiga",
+          id: "a8",
+        },
+        {
+          image: <img src={logo} />,
+          name: "xuv",
+          id: "a9",
+        },
+        {
+          image: <img src={logo} />,
+          name: "mercedes",
+          id: "a10",
+        },
+        {
+          image: <img src={logo} />,
+          name: "i8",
+          id: "a11",
+        },
+        {
+          image: <img src={logo} />,
+          name: "ritz",
+          id: "a12",
+        },
+      ],
+
+
+
+
+
+
+      BUTTONSSSSSSSSSSSSSSSSSSSSSS
+
+
+
+
+      <div className="card-container">
+          <div className="card-list">
+            <h1>Car1</h1>
+            <ButtonToolbar>
+              <button
+                variant="primary"
+                onClick={() => this.setState({ addModalShow: true })}
+              >
+                show details
+              </button>
+              <MyModal show={this.state.addModalShow} onHide={addModalClose} />
+            </ButtonToolbar>
+          </div>
+        </div>
+        <div className="card-container">
+          <div className="card-list">
+            <h1>Car1</h1>
+            <ButtonToolbar>
+              <button
+                variant="primary"
+                onClick={() => this.setState({ addModalShow: true })}
+              >
+                show details
+              </button>
+              <MyModal show={this.state.addModalShow} onHide={addModalClose} />
+            </ButtonToolbar>
+          </div>
+        </div>
+        <div className="card-container">
+          <div className="card-list">
+            <h1>Car1</h1>
+            <ButtonToolbar>
+              <button
+                variant="primary"
+                onClick={() => this.setState({ addModalShow: true })}
+              >
+                show details
+              </button>
+              <MyModal show={this.state.addModalShow} onHide={addModalClose} />
+            </ButtonToolbar>
+          </div>
+        </div>
+        <div className="card-container">
+          <div className="card-list">
+            <h1>Car1</h1>
+            <ButtonToolbar>
+              <button
+                variant="primary"
+                onClick={() => this.setState({ addModalShow: true })}
+              >
+                show details
+              </button>
+              <MyModal show={this.state.addModalShow} onHide={addModalClose} />
+            </ButtonToolbar>
+          </div>
+        </div>
+        <div className="card-container">
+          <div className="card-list">
+            <h1>Car1</h1>
+            <ButtonToolbar>
+              <button
+                variant="primary"
+                onClick={() => this.setState({ addModalShow: true })}
+              >
+                show details
+              </button>
+              <MyModal show={this.state.addModalShow} onHide={addModalClose} />
+            </ButtonToolbar>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+export class Carlist extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = { dep: [], addModalShow: false };
+  }
+
+   {

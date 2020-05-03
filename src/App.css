@@ -1,0 +1,17 @@
+.App {
+  background-image: url("./main.jpg");
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+h1 {
+  font-family: "Ultra", serif;
+  color: #0ccac4;
+}
+
+.card-cont {
+  margin-top: 20px;
+  border: 15px;
+}

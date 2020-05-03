@@ -1,0 +1,72 @@
+.MyModal {
+  width: 100%;
+  flex-direction: column;
+  margin-top: 8rem;
+  padding: 40px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 50px #555;
+  background-color: #ffffff;
+}
+.show button {
+  background-color: #519e8a;
+  color: #fff;
+  border: 3px solid #fff;
+  width: 100%;
+  margin-top: 1em;
+  padding: 8px 0px;
+  font-size: 1em;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  margin-bottom: 0.25em;
+}
+.sho button {
+  margin-left: 70%;
+  background-color: #519e8a;
+  color: #fff;
+  border: 3px solid #fff;
+  width: 20%;
+  margin-top: 1em;
+  padding: 8px 0px;
+  font-size: 1em;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  margin-bottom: 0.25em;
+}
+.card-list {
+  width: 85vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.card-cont {
+  display: flex;
+  flex-direction: column;
+  background-color: #007bff;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 50px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #95dada;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+.card-container:hover {
+  transform: scale(1.05);
+}
